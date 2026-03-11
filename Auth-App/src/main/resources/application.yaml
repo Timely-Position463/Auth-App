@@ -1,7 +1,0 @@
-spring:
-  application:
-    name: Auth-App
-    profiles:
-      active: dev
-server:
-  port: 8080
