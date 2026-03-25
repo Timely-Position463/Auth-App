@@ -1,4 +1,4 @@
-package com.portfolio.project.Auth_App.services;
+package com.portfolio.project.Auth_App.services.Impl;
 
 
 import com.portfolio.project.Auth_App.dto.UserDto;
@@ -7,6 +7,7 @@ import com.portfolio.project.Auth_App.entities.User;
 import com.portfolio.project.Auth_App.exceptions.ResourceNotFoundException;
 import com.portfolio.project.Auth_App.helpers.UserHelper;
 import com.portfolio.project.Auth_App.repositories.UserRepository;
+import com.portfolio.project.Auth_App.services.UserService;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
